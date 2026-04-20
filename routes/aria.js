@@ -64,7 +64,7 @@ router.post('/chat', async (req, res) => {
 // ── Gemini ────────────────────────────────────────────────────────────────────
 async function callGemini(message, history) {
   const KEY = process.env.GEMINI_API_KEY;
-  const MODEL = 'gemini-1.5-flash'; // free tier, fast
+  const MODEL = 'gemini-2.0-flash'; // free tier, fast
 
   // Build contents array
   const contents = [];
