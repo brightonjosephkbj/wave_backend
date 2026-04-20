@@ -61,6 +61,7 @@ app.use('/download',  dlLimiter, require('./routes/download'));
 app.use('/search',    require('./routes/search'));
 app.use('/aria',      require('./routes/aria'));
 app.use('/scraper',   require('./routes/scraper'));
+app.use('/lyrics',  require('./routes/lyrics'));
 app.use('/trending',  require('./routes/trending'));
 
 // ── Health ────────────────────────────────────────────────────────────────────
